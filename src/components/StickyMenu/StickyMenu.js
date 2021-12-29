@@ -1,8 +1,10 @@
 import React from 'react'
 
+import './StickyMenu.css'
+
 const StickyMenu = () =>{
 	return(
-		<div>
+		<div id={"sticky-menu"}>
 			<p>StickyMenu</p>
 		</div>
 	)

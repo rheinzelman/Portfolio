@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Header from './Header'
-import StickyMenu from './StickyMenu'
+import Header from './Header/Header'
+import StickyMenu from './StickyMenu/StickyMenu'
 
 
 
@@ -11,7 +11,6 @@ const App = () => {
 	return(
 
 		<div>
-			<StickyMenu />
 			<Header />
 		</div>
 
