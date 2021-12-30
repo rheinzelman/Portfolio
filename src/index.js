@@ -8,6 +8,7 @@ import App from './components/App';
 
 //css imports
 import "./styles/global.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

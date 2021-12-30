@@ -4,12 +4,9 @@ import './Avi.css'
 
 const Avi = () => {
 	return (
-		<div id={"AviDiv"}>
 			<div id={"AviPortrait"}>
-				<img id={"AviImg"} src={require('../../images/avi.jpg')} />
+				<img id={"AviImg"} src={require('./avi.jpg')} />
 			</div>
-
-		</div>
 	)	
 }
 

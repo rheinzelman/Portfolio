@@ -8,7 +8,6 @@ import Avi from '../Avi/Avi'
 const Header = () => {
 	return(
 		<div id={"header"}>
-			<HeaderBackground />
 			<Avi />
 		</div>
 	)

@@ -1,0 +1,21 @@
+#home-div button {
+    margin: 0 5% 0 5%;
+}
+
+#icp {
+    margin: 25px 0 0 0;
+    height:150px;
+    width: 100%;
+    background-image: url("../../images/icp.jpg");
+    background-position: center;
+    background-size: inherit;
+}
+
+#snippet {
+    margin: 25px 0 0 0;
+    height:150px;
+    width: 100%;
+    background-image: url("../../images/snippet.png");
+    background-position:center;
+    background-size: inherit;
+}
