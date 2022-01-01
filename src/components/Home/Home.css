@@ -4,18 +4,18 @@
 
 #icp {
     margin: 25px 0 0 0;
-    height:150px;
+    height:200px;
     width: 100%;
     background-image: url("../../images/icp.jpg");
     background-position: center;
-    background-size: inherit;
+    background-size: cover;
 }
 
 #snippet {
     margin: 25px 0 0 0;
-    height:150px;
+    height:200px;
     width: 100%;
-    background-image: url("../../images/snippet.png");
+    background-image: url("../../images/snippet.jpg");
     background-position:center;
-    background-size: inherit;
+    background-size: cover;
 }

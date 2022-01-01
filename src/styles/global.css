@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Myeongjo&family=Roboto:wght@300&display=swap');
 
-* { margin: 0; padding: 0; }
-
 @media only screen and (max-width: 700px) {
 	body {
 	}
+}
+
+* { margin: 0; padding: 0;}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -29,6 +34,10 @@ h3 {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: 200;
 	font-size: 2rem;
+}
+
+h4 {
+	font-family: 'Nanum Myeongjo', serif;
 }
 
 p {
