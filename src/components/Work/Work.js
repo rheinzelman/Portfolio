@@ -12,7 +12,9 @@ import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
 
 const Work = () => (
-    <div id={"work-div"}>
+    <div>
+
+        <a className={"anchor"} id={"work"}></a>
 
         <h3 className={"fs-2 m-3"}>Work</h3>
         <p className={"m-3"}>Here are some of my projects.</p>

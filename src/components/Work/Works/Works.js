@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container'
 
 function Works(props) {
     return (
-        <Container>
+        <Container className={""}>
             <Row>
                 <WorkCard filename={"DBMS"} title={"Python DBMS"} text={"This was a mock DBMS I made in python for my CS457 class on databases."} />
                 <WorkCard filename={"Capstone"} title={"Capstone"} text={"My undergrad capstone: Autochess. WIP! Click to find out more."} />

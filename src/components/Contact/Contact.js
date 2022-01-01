@@ -30,6 +30,7 @@ const Contact = () => {
 
     return (
         <div id={"contact-div"}>
+            <a className={"anchor"} id={"contact"}></a>
             <h3 className={"m-3"}>Contact</h3>
             <form id={"contact-form"} onSubmit={submitForm}>
                 <p>Name:</p>
@@ -38,7 +39,7 @@ const Contact = () => {
                 <input id={"contact-email-box"} type={"text"} placeholder={"Your email here"}></input>
                 <p>Message:</p>
                 <textarea id={"message-text"} placeholder={"Your message here"}></textarea><br/>
-                <button>Submit</button>
+                <p>WIP!!! Don't try anything funny</p>
             </form>
         </div>
     )

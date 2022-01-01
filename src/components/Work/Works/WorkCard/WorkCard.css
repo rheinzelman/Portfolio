@@ -6,7 +6,6 @@
 }
 
 #card-content {
-    background-color: red;
     opacity: 0%;
     height: 100%;
     width: 100%;
@@ -24,13 +23,22 @@
     }
 
     #card-body h3 {
-        background-color: red;
+        background-color: #ffcb85;
+        padding-top: 0;
+    }
+
+    #card-body p {
+        visibility: hidden;
     }
 }
 
 @media only screen and (min-width: 700px) {
     #card-content:hover {
+        background-color: #ffcb85;
         opacity: 100%;
+    }
+
+    #card-body:hover {
     }
 
 }

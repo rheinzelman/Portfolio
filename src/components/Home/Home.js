@@ -6,7 +6,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div id={"home-div"}>
+        <div>
             <h2 className={"fs-1 m-3"}>RAYMOND HEINZELMAN<br/>STUDENT // LAB ASSISTANT</h2>
             <p className={"m-3"}>College student with lots of interest in growing my work experience. Currently working in Reno Nevada doing analytical lab work with rocks and stuff.</p>
             <h3 className={"fs-2 m-3"}>Software</h3>

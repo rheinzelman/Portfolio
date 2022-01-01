@@ -17,7 +17,7 @@ const App = () => {
 			<Header />
 			<StickyMenu />
 			<Home />
-			<Work/>
+			<Work />
 			<Contact />
 		</div>
 
