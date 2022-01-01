@@ -4,7 +4,7 @@ import {Nav, Navbar, Container, NavDropdown} from 'react-bootstrap'
 import './StickyMenu.css'
 
 const StickyMenu = () => (
-	<Navbar bg="light" expand="lg" sticky="top">
+	<Navbar bg="light" expand="lg" sticky={"top"} className={"sticky-menu"}>
 		<Container>
 			<Navbar.Brand href="#home" className={"mt-2"}><h1>RGH</h1></Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -4,19 +4,20 @@ import './Works.css'
 
 import WorkCard from './WorkCard/WorkCard'
 
+
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+import Container from 'react-bootstrap/Container'
 
 function Works(props) {
     return (
-        <Row>
-            <WorkCard filename={"DBMS"} title={"Python DBMS"} text={"This was a mock DBMS I made in python for my CS457 class on databases."} />
-            <WorkCard filename={"Capstone"} title={"Capstone"} text={"My undergrad capstone: Autochess. WIP! Click to find out more."} />
-            <WorkCard filename={"BubbleSort"} title={"Bubble Sort"} text={"Demonstration of bubble sort in C++"} />
-            <WorkCard filename={"QuickSort"} title={"Quick Sort"} text={"Demonstration of quick sort in C++"} />
-        </Row>
+        <Container>
+            <Row>
+                <WorkCard filename={"DBMS"} title={"Python DBMS"} text={"This was a mock DBMS I made in python for my CS457 class on databases."} />
+                <WorkCard filename={"Capstone"} title={"Capstone"} text={"My undergrad capstone: Autochess. WIP! Click to find out more."} />
+                <WorkCard filename={"BubbleSort"} title={"Bubble Sort"} text={"Demonstration of bubble sort in C++"} />
+                <WorkCard filename={"QuickSort"} title={"Quick Sort"} text={"Demonstration of quick sort in C++"} />
+            </Row>
+        </Container>
     )
 }
 
