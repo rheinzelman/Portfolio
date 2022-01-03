@@ -6,6 +6,7 @@ import Home from './Home/Home'
 import Work from './Work/Work'
 import Contact from './Contact/Contact'
 import StickyMenu from './StickyMenu/StickyMenu'
+import Captcha from './Captcha/Captcha'
 
 
 

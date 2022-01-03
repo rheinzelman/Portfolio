@@ -4,6 +4,10 @@
     margin: 0 auto;
     display: inline-flex;
 }
+#card-body a {
+    color: black;
+    text-decoration: none;
+}
 
 #card-content {
     opacity: 0%;
@@ -15,8 +19,6 @@
 }
 
 @media only screen and (max-width: 700px) {
-    #card-body {
-    }
 
     #card-content {
         opacity: 100%;
@@ -32,18 +34,32 @@
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    #card-content {
+        opacity: 100%;
+    }
+
+    #card-body h3 {
+        background-color: #ffcb85;
+        padding-top: 0;
+    }
+
+    #card-body p {
+        opacity: 0%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    #card-content {
+        opacity: 0%;
+    }
     #card-content:hover {
         background-color: #ffcb85;
         opacity: 100%;
     }
 
     #card-body:hover {
-    }
-
-}
-
-@media only screen and (min-width: 1000px) {
-    #card-body {
+        opacity: 100%;
     }
 }
