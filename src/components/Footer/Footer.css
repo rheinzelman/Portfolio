@@ -1,0 +1,18 @@
+#footer-div {
+}
+
+#contact-div {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.formSection label {
+    display: block;
+}
+
+.formSection textarea, input {
+    width: 100%;
+}

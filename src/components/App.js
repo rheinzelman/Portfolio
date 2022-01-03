@@ -1,12 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 
 import Header from './Header/Header'
 import Home from './Home/Home'
 import Work from './Work/Work'
-import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 import StickyMenu from './StickyMenu/StickyMenu'
-import Captcha from './Captcha/Captcha'
 
 
 
@@ -19,7 +17,7 @@ const App = () => {
 			<StickyMenu />
 			<Home />
 			<Work />
-			<Contact />
+			<Footer />
 		</div>
 
 	)

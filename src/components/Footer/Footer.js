@@ -95,7 +95,7 @@ const Footer = () => {
 
                 <form onSubmit={submitForm} className="">
 
-                    <div className="formSection">
+                    <div id="contact" className="formSection">
                         <label htmlFor={"name'"}>Name</label>
                         <input onChange={updateFormControl} type={"text"} id={"name"} value={formState.name} className="form-control" placeholder="Enter your name" />
                     </div>
@@ -122,6 +122,8 @@ const Footer = () => {
                     </button>
 
                 </form>
+
+                <div id="copyright" className="mt-3 mb-3">copyright goes here</div>
 
             </div>
         </div>
